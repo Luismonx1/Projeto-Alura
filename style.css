@@ -1,64 +1,43 @@
-body{
-    background-color:white;
+body {
+    background-color: white;
 }
 
-.sidebar{
-    position:fixed;
-    top:0;
-    left:0;
-    bottom:0;
-    padding:12px;
-    width:300px;
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
 }
 
-.sidebar__navigation{
+.sidebar__navigation {
     background-color: #121212;
-    border-radius:8px;
-    padding:16px 0 0 16px;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
 }
 
-.logo{
+.logo {
     background: #121212;
-    display:flex;
-    border-radius:8px ;
-    padding:16px 0 0 16px;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
 }
 
-.sidebar__navigation .logo img{
-    width:80px;
+.sidebar__navigation .logo img {
+    width: 80px;
 }
 
-.sidebar nav ul{
+.sidebar nav ul {
     margin-top: 20px;
-    padding:0 20px 10px 20px;
+    padding: 0 20px 10px 20px;
 }
 
-.sidebar ul li{
+.sidebar ul li {
     padding: 10px 0;
 }
 
-.sidebar nav ul li a{
-    color: #b3b3b3;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 14px;
-    font-family: "DM Sans", sans-serif;
-}
-
-.sidebar_biblioteca{
-    position: fixed;
-    padding:12px;
-    width:300px;
-    top: 170px;
-}
-
-.biblioteca_navigation{
-    background-color: #121212;
-    border-radius:8px;
-    padding:16px 0 0 16px;
-    height: 350px;
-}
-.sua_biblioteca a{
+.sidebar nav ul li a {
     color: #b3b3b3;
     text-decoration: none;
     font-weight: 600;
@@ -66,3 +45,50 @@ body{
     font-family: "DM Sans", sans-serif;
 }
 
+.sidebar_biblioteca {
+    position: fixed;
+    padding: 12px;
+    width: 300px;
+    top: 170px;
+}
+
+.biblioteca_navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+    height: 350px;
+}
+
+.sua_biblioteca a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    padding: 0 20px 10px 20px;
+}
+
+.sua_biblioteca .fa-plus {
+    margin-left: 56px;
+}
+
+.criar_playlist {
+    background-color: darkgray;
+    padding: 16px 0 0 16px;
+    border-radius: 8px;
+    width: 250px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.criar_playlist b {
+    color: white;
+}
+
+.criar_playlist p {
+    margin-top: 10px;
+}
+
+.botão_criarplaylist a button {
+    background-color: aqua;
+}
