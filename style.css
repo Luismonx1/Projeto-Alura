@@ -1,5 +1,5 @@
 body{
-    background-color: #000;
+    background-color:white;
 }
 
 .sidebar{
@@ -43,4 +43,9 @@ body{
     font-weight: 600;
     font-size: 14px;
     font-family: "DM Sans", sans-serif;
+}
+
+.sidebar_biblioteca{
+    position: fixed;
+    top: 200px;
 }
