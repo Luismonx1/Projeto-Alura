@@ -47,5 +47,22 @@ body{
 
 .sidebar_biblioteca{
     position: fixed;
-    top: 200px;
+    padding:12px;
+    width:300px;
+    top: 170px;
 }
+
+.biblioteca_navigation{
+    background-color: #121212;
+    border-radius:8px;
+    padding:16px 0 0 16px;
+    height: 350px;
+}
+.sua_biblioteca a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+}
+
