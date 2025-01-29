@@ -99,10 +99,23 @@ body {
     font-weight: bold;
 }
 
+.cookies{
+    margin-top: 30px;
+}
+
 .cookies a {
-    color: aqua;
+    color: gray;
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 16px;
+    
+}
+
+.language .fa-globe{
+    color: black;
 }
 
 .language a button{
+    margin-top: 50px;
     color: aqua;
 }
