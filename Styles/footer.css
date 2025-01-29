@@ -1,0 +1,39 @@
+footer{
+    position: fixed;
+    margin-top: 580px;
+    width: 100%;
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    padding: 10px;
+    height: 60px;
+}
+
+.text{
+    color: white;
+}
+
+.text .title{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.text .subtitle{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+ .botao_inscreva {
+    margin-left: 89%;
+    margin-top: -25px;
+
+}
+
+.oferta .botao_inscreva button{
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 40px;
+}
