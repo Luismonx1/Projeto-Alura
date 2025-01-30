@@ -1,11 +1,11 @@
-.main-container{
+.main-container {
     max-width: 80vw;
     height: 100vh;
     margin-left: 320px;
     margin-right: 56px;
 }
 
-.header_navigation{
+.header_navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,35 +15,36 @@
     background-color: #121212;
 }
 
-.header_navigation .navigation{
+.header_navigation .navigation {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.header_navigation .navigation .arrow-left{
+.header_navigation .navigation .arrow-left {
     margin-right: 1.25rem;
 }
 
-.arrow-left, .arrow-right{
-display: flex;
-align-items: center;
-justify-content: center;
-width: 32px;
-height: 32px;
-background: var(--bg-icon);
-background-color: #000;
-border: none;
-border-radius: 50%;
-cursor: pointer;
+.arrow-left,
+.arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color: #000;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
-.header-login{
+.header-login {
     display: flex;
     align-items: center;
 }
 
-.header-search{
+.header-search {
     display: flex;
     align-items: center;
     width: 364px;
@@ -54,13 +55,13 @@ cursor: pointer;
     border: 1px solid transparent;
 }
 
-.header-search img{
+.header-search img {
     width: 16px;
     height: 16px;
     margin-left: 10px;
 }
 
-.header-search input{
+.header-search input {
     background: transparent;
     border: none;
     padding: 0px 100px 0 12px;
@@ -71,8 +72,8 @@ cursor: pointer;
     outline: none;
 }
 
-.header-login .subscribe{
-    color:#a7a7a7;
+.header-login .subscribe {
+    color: #a7a7a7;
     font-size: 16px;
     font-weight: 700;
     background-color: transparent;
@@ -80,11 +81,39 @@ cursor: pointer;
     margin-left: 60px;
 }
 
-.header-login .login{
+.header-login .login {
     width: 100px;
     height: 48px;
     color: #000;
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
+}
+
+.playlist-container{
+    background-color: #121212;
+    width: 69vw;
+    height: 70vh;
+    margin-left: 10px;
+    margin-right: 56px;
+    border-radius: 8px;
+}
+
+.playlist-container .playlist{
+    color: white;
+    font-weight: bold;
+}
+
+.playlist-title{
+    padding: 40px;
+    margin-left: -20px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.playlist-subtitle{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 20px;
 }
