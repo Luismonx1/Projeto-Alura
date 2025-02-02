@@ -39,7 +39,7 @@ body {
 }
 
 .sidebar nav ul li a {
-    color: #000;
+    color: #191414;
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
@@ -61,7 +61,7 @@ body {
 }
 
 .sua_biblioteca a {
-    color: #000;
+    color: #191414;
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
@@ -74,7 +74,7 @@ body {
 }
 
 .criar_playlist {
-    background-color: #000;
+    background-color: #191414;
     color: #b3b3b3;
     font-weight: 600;
 
