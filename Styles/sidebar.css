@@ -13,13 +13,13 @@ body {
 }
 
 .sidebar__navigation {
-    background-color: #121212;
+    background-color: #B3B3B3;
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
 .logo {
-    background: #121212;
+    background: #B3B3B3;
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -39,7 +39,7 @@ body {
 }
 
 .sidebar nav ul li a {
-    color: #b3b3b3;
+    color: #000;
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
@@ -54,14 +54,14 @@ body {
 }
 
 .biblioteca_navigation {
-    background-color: #121212;
+    background-color: #B3B3B3;
     border-radius: 8px;
     padding: 16px 0 0 16px;
     height: 330px;
 }
 
 .sua_biblioteca a {
-    color: #b3b3b3;
+    color: #000;
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
@@ -74,7 +74,7 @@ body {
 }
 
 .criar_playlist {
-    background-color: #242424;
+    background-color: #000;
     color: #b3b3b3;
     font-weight: 600;
 
@@ -117,7 +117,7 @@ body {
 }
 
 .cookies a {
-    color: #b3b3b3;
+    color: #000;
     font-family: "DM Sans", sans-serif;
     font-weight: 500;
     font-size: 10px;
@@ -128,8 +128,8 @@ body {
 .language .language__button {
     align-items: center;
     background-color: transparent;
-    border: 1px solid #878787;
-    color: #FFF;
+    border: 1px solid #000;
+    color: #000;
     font-weight: bold;
     cursor: pointer;
     width: 170px;
